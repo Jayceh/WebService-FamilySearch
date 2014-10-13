@@ -49,13 +49,5 @@ has host =>  (
   },
 );
 
-sub current_person {
-  my $self = shift;
-  my $ret = $self->_http->get( $self->host . '/platform/tree/current-person', { headers => $self->_default_http_args });
-  debug decode_json($ret->{'content'});
-  my $person = WebService::FamilySearch::Person->new( decode_json( $ret->{'content'} ) );
-};
 
-
-1;
 __END__

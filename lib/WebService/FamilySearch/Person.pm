@@ -1,4 +1,6 @@
 package WebService::FamilySearch::Person;
+# ABSTRACT: A Person Object for interacting with the a FamilySearch Person
+
 use strict;
 use warnings;
 
