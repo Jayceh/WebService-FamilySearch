@@ -1,6 +1,6 @@
 # NAME
 
-WebService::FamilySearch - Library for interfacing with the FamilySearch API 
+WebService::FamilySearch - Library for interfacing with the FamilySearch API⋅
 
 # VERSION
 
@@ -8,17 +8,16 @@ version 0.001
 
 # SYNOPSIS
 
-use WebService::FamilySearch;
+    use WebService::FamilySearch;
 
-my $FS = WebService::FamilySearch->new;
-
-$FS->oauth\_token($oauth\_token);
+    my $FS = WebService::FamilySearch->new;
+    $FS->oauth_token($oauth_token);
 
 # DOCUMENTATION
 
-Developer Documentation available at: 
+Developer Documentation available at:⋅
 
-https://familysearch.org/developers/docs/api
+https://familysearch.org/developers/docs/api/resources
 
 Getting developer credentials can be done at:
 
@@ -46,11 +45,3 @@ This software is copyright (c) 2014 by Jason (Jayce^) Hall.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
-
-# POD ERRORS
-
-Hey! **The above document had some coding errors, which are explained below:**
-
-- Around line 43:
-
-    You forgot a '=back' before '=head1'

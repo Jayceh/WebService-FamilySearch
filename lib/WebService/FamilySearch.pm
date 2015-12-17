@@ -1,5 +1,6 @@
 package WebService::FamilySearch;
-# ABSTRACT: Library for interfacing with the FamilySearch API 
+
+# ABSTRACT: Library for interfacing with the FamilySearch API
 
 =head1 SYNOPSIS
 
@@ -64,7 +65,7 @@ __END__
 
 =head1 DOCUMENTATION
 
-Developer Documentation available at: 
+Developer Documentation available at:
 
 https://familysearch.org/developers/docs/api
 
@@ -81,7 +82,3 @@ The sandbox is an empty environment that you can use to play around with any dat
 =head2 BETA
 
 The BETA environment is a clone of the live tree, and you will use your own OAuth credentials to log in and work with the real data. Credentials must be approved from the FamilySearch group.
-
-=over
-
-
