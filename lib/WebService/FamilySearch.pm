@@ -82,6 +82,3 @@ The sandbox is an empty environment that you can use to play around with any dat
 
 The BETA environment is a clone of the live tree, and you will use your own OAuth credentials to log in and work with the real data. Credentials must be approved from the FamilySearch group.
 
-=over
-
-
