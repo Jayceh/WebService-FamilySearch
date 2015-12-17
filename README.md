@@ -34,8 +34,6 @@ The sandbox is an empty environment that you can use to play around with any dat
 
 The BETA environment is a clone of the live tree, and you will use your own OAuth credentials to log in and work with the real data. Credentials must be approved from the FamilySearch group.
 
-
-
 # AUTHOR
 
 Jason (Jayce^) Hall <jayce@lug-nut.com>
@@ -46,11 +44,3 @@ This software is copyright (c) 2014 by Jason (Jayce^) Hall.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
-
-# POD ERRORS
-
-Hey! **The above document had some coding errors, which are explained below:**
-
-- Around line 43:
-
-    You forgot a '=back' before '=head1'
