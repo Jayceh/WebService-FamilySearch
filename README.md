@@ -18,11 +18,11 @@ $FS->oauth\_token($oauth\_token);
 
 Developer Documentation available at: 
 
-https://familysearch.org/developers/docs/api
+https://familysearch.org/developers/docs/api/resources
 
 Getting developer credentials can be done at:
 
-https://familysearchcommunity.force.com/Developer/
+https://grms.force.com/Developer
 
 # ENVIRONMENTS
 
