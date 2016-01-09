@@ -1,20 +1,24 @@
-# NAME
+=pod
+
+=encoding UTF-8
+
+=head1 NAME
 
 WebService::FamilySearch - Library for interfacing with the FamilySearch API 
 
-# VERSION
+=head1 VERSION
 
 version 0.001
 
-# SYNOPSIS
+=head1 SYNOPSIS
 
 use WebService::FamilySearch;
 
 my $FS = WebService::FamilySearch->new;
 
-$FS->oauth\_token($oauth\_token);
+$FS->oauth_token($oauth_token);
 
-# DOCUMENTATION
+=head1 DOCUMENTATION
 
 Developer Documentation available at: 
 
@@ -24,23 +28,25 @@ Getting developer credentials can be done at:
 
 https://familysearchcommunity.force.com/Developer/
 
-# ENVIRONMENTS
+=head1 ENVIRONMENTS
 
-## SANDBOX
+=head2 SANDBOX
 
 The sandbox is an empty environment that you can use to play around with any data. Applications can be setup thought the developer site, as well as user creation and credentials
 
-## BETA
+=head2 BETA
 
 The BETA environment is a clone of the live tree, and you will use your own OAuth credentials to log in and work with the real data. Credentials must be approved from the FamilySearch group.
 
-# AUTHOR
+=head1 AUTHOR
 
-Jason (Jayce^) Hall &lt;jayce@lug-nut.com>
+Jason (Jayce^) Hall <jayce@lug-nut.com>
 
-# COPYRIGHT AND LICENSE
+=head1 COPYRIGHT AND LICENSE
 
 This software is copyright (c) 2016 by Jason (Jayce^) Hall.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
+
+=cut
